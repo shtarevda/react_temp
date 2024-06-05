@@ -1,0 +1,80 @@
+.listSub {
+  width: 800px;
+  list-style-type: none;
+  margin: 16px;
+  padding: 16px;
+  background-color: rgb(72, 72, 255);
+}
+
+.listSub-item {
+  margin-bottom: 16px;
+  background-color: #fff;
+}
+
+.listSub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 20px 30px 20px 30px;
+  background-color: #fff;
+  border: 0;
+  font-size: 20px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.listSub-body {
+  padding: 30px 0px 30px 0px;
+  background-color: #f1f1f1;
+  font-size: 16px;
+  color: #393939;
+  text-align: left;
+}
+
+.listSub-collapse {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.3s;
+}
+
+.listSub-collapse.open {
+  height: auto;
+}
+
+.listPos {
+  list-style-type: none;
+}
+
+.indicator_green {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: green;
+}
+
+.indicator_red {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.listSub-header-left {
+  display: flex;
+  gap: 30px;
+}
+
+.listSub-header-right {
+  display: flex;
+  gap: 30px;
+}
+
+.listSub-name {
+  width: 35%;
+}
+
+.listSub-arrow.active {
+  transform: rotate(0deg);
+}
